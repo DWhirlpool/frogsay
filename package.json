@@ -1,0 +1,29 @@
+{
+    "name": "frogsay",
+    "version": "0.0.1",
+    "description": "frogsay is a talking frog",
+    "keywords": [
+      "frog",
+      "frogsay",
+      "figlet",
+      "talking",
+      "ASCII"
+    ],
+    "homepage": "https://github.com/dwhirlpool/frogsay",
+    "license": "MIT",
+    "main": "./frogsay",
+    "bin": {
+      "frogsay": "./frogsay.js"
+    },
+    "files": [
+      "frogsay.js"
+    ],
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/dwhirlpool/frogsay.git"
+    },
+    "preferGlobal": true,
+    "engines": {
+      "node": ">= 4"
+    }
+  }
